@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>گزارش‌یار — داشبورد گزارش‌گیری فارسی</title>
+<style>
+:root{--bg:#fff;--fg:#111;--accent:#000;--muted:#666;}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--accent:#fff;--muted:#999;}}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg);margin:0;}
+.hero{text-align:center;padding:5rem 1.5rem;}
+h1{font-size:3rem;margin-bottom:1rem;}
+.sub{font-size:1.3rem;color:var(--muted);margin-bottom:2rem;}
+.btn{background:var(--accent);color:var(--bg);padding:1rem 2rem;text-decoration:none;border-radius:4px;font-weight:600;}
+.features{max-width:1000px;margin:0 auto;padding:3rem 1.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem;}
+.feat{padding:1.5rem;border:1px solid #ddd;}
+</style>
+</head>
+<body>
+<section class="hero">
+<h1>گزارش‌یار</h1>
+<p class="sub">داشبورد گزارش‌گیری ساده و قدرتمند برای تیم‌های فارسی‌زبان</p>
+<a href="#signup" class="btn">شروع رایگان</a>
+</section>
+<div class="features">
+<div class="feat"><h3>اتصال به منابع</h3><p>اکسل، گوگل شیت، API</p></div>
+<div class="feat"><h3>گراف خودکار</h3><p>بدون نیاز به دانش برنامه‌نویسی</p></div>
+<div class="feat"><h3>اشتراک آسان</h3><p>لینک و تصویر گزارش</p></div>
+</div>
+<section id="signup" style="text-align:center;padding:3rem;">
+<h2>ثبت‌نام</h2>
+<form>
+<input type="email" placeholder="ایمیل کاری" style="padding:0.8rem;margin:0.5rem;" required>
+<button class="btn" type="submit">شروع</button>
+</form>
+</section>
+</body>
+</html>
